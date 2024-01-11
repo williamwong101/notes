@@ -26,9 +26,9 @@
    2. Then send your SSH public-key to Windows:
 
         ```bash
-        $ authorizedKey=$(echo .ssh/id_ed25519.pub);
+        authorizedKey=$(echo .ssh/id_ed25519.pub);
 
-        $ remotePowershell="powershell New-Item -Force -ItemType Directory -Path \$env:USERPROFILE\.ssh; Add-Content -Force -Path \$env:USERPROFILE\.ssh\authorized_keys -Value '$authorizedKey'";
+        remotePowershell="powershell New-Item -Force -ItemType Directory -Path \$env:USERPROFILE\.ssh; Add-Content -Force -Path \$env:USERPROFILE\.ssh\authorized_keys -Value '$authorizedKey'";
 
         ssh <windows_username>@<windows_ip> $remotePowershell
         ```
