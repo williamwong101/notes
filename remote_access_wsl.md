@@ -46,3 +46,12 @@
    4. Try ssh connection: `ssh host_name`
 6. Connect Your VSCode on Mac Remotely to Windows
    1. Set connection env to be Linux and it will automatically invoke the WSL env
+
+## Refs
+
+- <https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse?tabs=gui#install-openssh-for-windows>
+- <https://superuser.com/questions/627208/unable-to-ping-a-windows-machine-from-linux>
+- <https://www.linksys.com/support-article?articleNum=137818>
+- <https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#deploying-the-public-key>
+- <https://linuxize.com/post/using-the-ssh-config-file/>
+- <https://gist.github.com/adamelliotfields/16dfac1bacf6d2eeada0582fdfbbb7b6>
